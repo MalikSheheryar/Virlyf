@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Viralyft</title>
+  </head>
+  <body>
+    <!-- Navbar Starts -->
+    <nav class="navbar navbar-expand-lg bg-color py-4 pt-lg-5">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="#"><img src="./assets/Viralyft.svg" alt="Logo" /></a>
+          <p class="heading-para d-sm-none d-lg-block d-none">
+            Buy <strong>Followers, Likes, Views & more!</strong> 🚀
+          </p>
+        </div>
+        <button
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="navbar-toggler navbar-menu"
+          data-bs-target="#navbarSupportedContent"
+          data-bs-toggle="collapse"
+          type="button"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 nav-links-a">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li class="dropdown-divider"></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Company
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li class="dropdown-divider"></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle active"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Tools
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li class="dropdown-divider"></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Contact</a
+              >
+            </li>
+            <li class="nav-item">
+              <button class="navbar-btn-menu">Track Order</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar Ends -->
+
+    <!-- Checkout Section Starts Here -->
+    <section>
+      <div class="checkout-wrapper">
+        <div class="container">
+          <div class="row p-3 p-md-5">
+            <div class=" col-xs-12 col-sm-12 col-md-12 col-12 col-lg-6 col-xl-6 col-xxl-6 rounded-card mb-3 mb-md-2">
+              <div class="card">
+                <h2 class="p-3 checkout-heading mb-0 pb-0">Account Information</h2>
+                <div class="card-body">
+                  <div class="mb-4 cards">
+                    <label for="exampleFormControlInput1" class="form-label"
+                      >Instagram Account Name</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="@username"
+                    />
+                  </div>
+
+                  <div class="mb-4 cards">
+                    <label for="exampleFormControlInput1" class="form-label"
+                      >Email address</label
+                    >
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="exampleFormControlInput1"
+                      placeholder="you@company.com"
+                    />
+                  </div>
+
+                  <!-- New Payment Method Label -->
+                  <div class="mb-3 payment-label">
+                    <label class="form-label">Payment Method</label>
+                  </div>
+
+                  <!-- Checkout Methods -->
+                  <div
+                    class="d-flex align-items-center justify-content-sm-between gap-2 checkout-method-main"
+                  >
+                    <!-- Checkout Method 1 -->
+                    <div class="form-check checkout-methods">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="Method"
+                        id="Credit"
+                      />
+                      <div class="d-flex">
+                        <label class="form-check-label" for="Credit">
+                          Credit
+                        </label>
+                        <img src="./assets/visa.svg" alt="visa" width="30" />
+                      </div>
+                    </div>
+
+                    <!-- Checkout Method 2 -->
+                    <div class="form-check checkout-methods">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="Method"
+                        id="Cryptobase"
+                      />
+                      <div class="d-flex">
+                        <label class="form-check-label" for="Cryptobase">
+                          Cryptobase
+                        </label>
+                        <img
+                          src="./assets/Etherium.svg"
+                          alt="Etherium"
+                          width="20"
+                        />
+                      </div>
+                    </div>
+
+                    <!-- Checkout Method 3 -->
+                    <div class="form-check checkout-methods">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="Method"
+                        id="ApplePay"
+                      />
+                      <div class="d-flex">
+                        <label class="form-check-label" for="ApplePay">
+                          ApplePay
+                        </label>
+                        <img
+                          src="./assets/ApplePay.svg"
+                          alt="ApplePay"
+                          width="30"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Discount Code Section -->
+                  <div class="mt-4 cards position-relative">
+                    <label class="form-label">Discount Code</label>
+                    <span>
+                        <img src="./assets/ticket-discount.svg" alt="ticket" class="position-absolute start-0 top-50 mx-3 ticket-img" />
+                    </span>
+                    <input
+                        type="text"
+                        class="form-control pl-5"
+                        placeholder="    Coupon code"
+                        aria-label="Coupon code"
+                        aria-describedby="coupon-addon"
+                    />
+                    <a href="#" class="position-absolute end-0 top-50 me-3 apply-link">Apply</a>
+                </div>
+                
+                </div>
+              </div>
+            </div>
+            <div class=" col-xs-12 col-sm-12 col-md-12 col-12 col-lg-6 col-xl-6 col-xxl-6 mb-md-2">
+              <div class="card">
+                <h2 class="checkout-heading rounded p-3 mb-0 pb-0">Your Order</h2>
+                <div class="card-body">
+                  <div class="order-section p-3 main-follower">
+                    <div class="d-flex justify-content-end">
+                      <a href="#" class="edit-link">Change</a>
+                    </div>
+                    <h3>
+                      100 High Quality Followers
+                      <img src="./assets/badge.svg" alt="badge" />
+                    </h3>
+                    <p>
+                      High-Quality followers are a great choice for anyone
+                      needing a boost and wanting real followers from a global
+                      fanbase without a large budget.
+                      <a href="#">Learn more</a>
+                    </p>
+                  </div>
+                  <hr class="mx-auto w-100" />
+                  <div
+                    class="order-section p-2 main-subscription d-flex justify-content-sm-between cards-rounded"
+                  >
+                    <div class="">
+                      <img src="./assets/Subscribe.png" alt="subsscribe" />
+                    </div>
+                    <div class="subscription">
+                      <p>
+                        Offer to upgrade to 250 Instagram followers and save 10%
+                      </p>
+                      <button class="p-2">For Only $4.50</button>
+                    </div>
+                  </div>
+                  <hr class="mx-auto w-100" />
+                  <div class="total-amount p-2">
+                    <div class="d-flex justify-content-between">
+                      <span>Subtotal</span>
+                      <p>$56.00</p>
+                      <!-- Replace with the actual total amount -->
+                    </div>
+                    <div class="d-flex justify-content-between">
+                      <span>Discount (10%)</span>
+                      <p>-$13.00</p>
+                      <!-- Replace with the actual discount amount -->
+                    </div>
+                  </div>
+                  <hr class="mx-auto w-100" />
+                  <div class="total-amount p-2">
+                    <div class="d-flex justify-content-between">
+                      <p>Total</p>
+                      <p>$51.00</p>
+                      <!-- Replace with the actual total amount -->
+                    </div>
+                </div>
+                <div class="checkout-button d-flex justify-content-center align-items-center ">
+                  <button >Proceed to checkout</button>
+                </div>
+                <div class="important-note d-flex justify-content-center align-items-center mt-4">
+                  <span class="mx-3" >Note: Delivery of your order will start automatically after successful payment. A order confirmation email will be sent with order number and details.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Checkout Section Ends Here -->
+    <!-- Order Section Starts -->
+    <section class="p-4">
+      <div class="container">
+        <div class="row m-auto">
+          <div class="col-lg-6 cold-md-6 col-12 order-section-image">
+            <img src="./assets/Frame (1).png" alt="Image" class="img-fluid" />
+          </div>
+          <div
+            class="col-lg-6 cold-md-6 col-12 d-flex flex-column justify-content-center mt-sm-3"
+          >
+            <h1 class="order-section-heading">How to place an order?</h1>
+            <p class="order-section-heading-para">
+              Placing orders on Viralyft is super simple- as we have designed a
+              user-friendly checkout that allows you to select your account or
+              media, securely pay and start your order in just a few quick
+              steps!
+            </p>
+
+            <div class="d-flex align-items-center points">
+              <div class="ellipse">01</div>
+              <p class="ms-2">
+                Enter your <strong> username or URL</strong>; I.E: JustinBeiber,
+                Facebook.com/JustinBeiber
+              </p>
+            </div>
+            <div class="d-flex align-items-center points">
+              <div class="ellipse">02</div>
+              <p class="ms-2">
+                Enter your email address to recieve order details and
+                confirmation
+              </p>
+            </div>
+
+            <div class="d-flex align-items-center points">
+              <div class="ellipse">03</div>
+              <p class="ms-2">Click the <strong>"Continue" </strong>button</p>
+            </div>
+            <div class="d-flex align-items-center points">
+              <div class="ellipse">04</div>
+              <p class="ms-2">
+                If you are ordering <strong>"Likes"</strong> or
+                <strong>"Views"</strong> please select the media or posts you
+                wish to have services delivered on.
+              </p>
+            </div>
+            <div class="d-flex align-items-center points">
+              <div class="ellipse">05</div>
+              <p class="ms-2">
+                Review your order details and select
+                <strong>"Continue to checkout</strong>"
+              </p>
+            </div>
+            <div class="d-flex align-items-center points">
+              <div class="ellipse">06</div>
+              <p class="ms-2">
+                Fill in your payment details on our SSL secured payment gateway.
+              </p>
+            </div>
+            <div class="d-flex align-items-center points">
+              <div class="ellipse">07</div>
+              <p class="ms-2">
+                WooHoo! You are done- sit back, relax and watch the magic
+                happen!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Order Section Ends -->
+    <!-- Footer Section Starts -->
+    <footer class="main-footer-section col-12">
+      <div class="contact-details">
+        <div class="footer-section py-5 text-white">
+          <div class="container d-flex justify-content-sm-evenly">
+            <div class="row my-0 d-flex justify-content-lg-around align">
+              <div class="col-lg-2 col-md-6 col-6 footer-logo">
+                <img src="./assets/Viralyft.svg" alt="logo" />
+                <p class="my-5">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  in placerat metus. Nullam in augue pellentesque tortor gravida
+                  volutpat id at est. Praesent ut enim neque.
+                </p>
+                <img src="./assets/cards.png" alt="cards" class="cards" />
+              </div>
+              <div class="col-lg-2 col-md-6 col-6">
+                <div class="footer-links">
+                  <h4 class="text-white mt-5 mb-3">Services</h4>
+                  <ul class="list-unstyled d-flex flex-column gap-2">
+                    <li>Buy Instagram Followers</li>
+                    <li>Buy Instagram Likes</li>
+                    <li>Buy YouTube Views</li>
+                    <li>Buy YouTube Likes</li>
+                    <li>Buy Twitter Followers</li>
+                    <li>Buy TikTok Followers</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-lg-2 col-md-6 col-6">
+                <div class="footer-links">
+                  <h4 class="text-white mt-5 mb-3">Why US</h4>
+                  <ul class="list-unstyled d-flex flex-column gap-2">
+                    <li>About</li>
+                    <li>Reviews</li>
+                    <li>Blog</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6 col-6">
+                <div class="footer-links">
+                  <h4 class="text-white mt-5 mb-3">Support</h4>
+                  <ul class="list-unstyled d-flex flex-column gap-2">
+                    <li>Contact</li>
+                    <li>FAQ's</li>
+                    <li>Refund Policy</li>
+                    <li>Terms of Use</li>
+                    <li>Privacy Policy</li>
+                    <li>Privacy Guarantee</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6 col-6">
+                <div class="footer-links">
+                  <h4 class="text-white mt-5 mb-3">Others</h4>
+                  <ul class="list-unstyled d-flex flex-column gap-2">
+                    <li>Viralyft Sitemap</li>
+                    <li>Our Team</li>
+                    <li>Press</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Footer Section Ends -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
